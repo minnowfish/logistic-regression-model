@@ -5,8 +5,6 @@
 
 This project implements a simple logistic regression model to analyze and predict binary outcomes. It visualization of the decision boundary and cost reduction over iterations. The model uses the sigmoid function to map probabilities and make classifications.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -17,5 +15,3 @@ Ensure you have python3 installed.
   ```sh
   pip install numpy matplotlib
   ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
