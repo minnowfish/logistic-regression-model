@@ -15,7 +15,3 @@ Ensure you have python3 installed.
   ```sh
   pip install numpy matplotlib
   ```
-
-<!-- IMPROVEMENTS -->
-## Improvements
-Bias could be added as a parameter to improve the flexibility of the model
