@@ -35,7 +35,7 @@ class LogisticRegression:
 
     def fit(self, X, y):
         # get best weight using gradient descent
-        X = np.c_[np.ones((X.shape[0], 1)), X]
+        X = np.c_[np.ones((X.shape[0], 1)), X] #adds bias to left of X
         self.weights = np.zeros(X.shape[1])
         
         self.weights, self.costs = gradient_descent(X, y, self.weights, self.learning_rate, self.iterations)
